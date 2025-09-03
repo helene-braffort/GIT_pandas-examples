@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
+
+#ajoute un prénom
+
 __author__ = 'Naima'
 # non c'est Dario l'auteur!!!
+
+
 
 import pandas as pd
 import numpy as np
