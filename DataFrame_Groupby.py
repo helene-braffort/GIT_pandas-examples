@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-__author__ = 'helene braffort'
+__author__ = 'Naima'
 
 import pandas as pd
 import numpy as np
@@ -37,6 +37,8 @@ print('\n==================================================================\n')
 
 
 # Show avg ratings movie (groupby + avg)
+#la fonction groupby elle permet d'organiser les données en groupe en fonction en certain
+
 avgRatings = cloneDF(mergeRatings)
 avgRatings = avgRatings.groupby(['movie_id', 'title']).mean()
 print('Avg ratings: \n%s' % avgRatings['rating'][:10])
